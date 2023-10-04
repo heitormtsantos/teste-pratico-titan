@@ -1,0 +1,99 @@
+/* Estilos gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FFD700; /* Amarelo */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos para os formulários */
+form {
+    background-color: #333; /* Fundo escuro */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #FFD700; /* Amarelo */
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #FFD700; /* Amarelo */
+    color: #000; /* Texto preto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Fundo escuro */
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #fff; /* Linhas de separação brancas */
+}
+
+th {
+    background-color: #FFD700; /* Amarelo */
+    color: #000; /* Texto preto */
+}
+
+tr:nth-child(even) {
+    background-color: #444; /* Fundo mais escuro para linhas pares */
+}
+
+/* Estilos para os botões */
+button {
+    background-color: #FFD700; /* Amarelo */
+    color: #000; /* Texto preto */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilo para botões de ação (Editar, Excluir, Marcar como Pago) */
+button.editar {
+    background-color: #008000; /* Verde */
+}
+
+button.excluir {
+    background-color: #FF0000; /* Vermelho */
+}
+
+button.pagar {
+    background-color: #0000FF; /* Azul */
+}
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
